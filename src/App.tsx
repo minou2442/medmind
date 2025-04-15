@@ -31,7 +31,7 @@ function App() {
       name: "GRIMES RAID",
       role: "photography team leader",
       image:  ridaImg
-    }
+    },
      {
       name: "MAISSA RAHMOUNI",
       role: "marketing team leader",
