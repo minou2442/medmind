@@ -32,41 +32,7 @@ function App() {
       name: "GRIMES RAID",
       role: "photography team leader",
       image:  ridaImg
-    },
-     {
-      name: "MAISSA RAHMOUNI",
-      role: "marketing team leader",
-      
-    },
-   {
-      name: "FADOUA BOUACHIR",
-      role: "er team leader",
-     
-    },
-   {
-      name: "BOUFENNIR DJALEL",
-      role: "design team leader",
-     
-    },
-   {
-      name: "DJIHANE REKAT",
-      role: "organization team leader(Events)",
-      
-    },
-  {
-      name: "IBTIHAL GHAOUI",
-      role: "organization team leader workshops",
-    },
-   {
-      name: "ISRAA MOUSSAOUI",
-      role: "finance team leader",
-      
-    },
-   {
-      name: "KHADIDJA MELIT",
-      role: "administration team leader",
-    
-    },
+    }
  
   ];
 
