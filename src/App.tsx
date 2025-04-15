@@ -9,8 +9,9 @@ import zakariaImg from './images/zaki.jpg';
 import nourhaneImg from './images/nourhane.jpg';
 import ridaImg from './images/grimes.jpg';
 import bgImage from './images/background.jpg';
+import unImg from './images/Unknown_person.jpg';
 
-
+Unknown_person
 import { Heart, Calendar, Brain, Code, Mail, Instagram, Send, BookOpen, Stethoscope, Microscope } from 'lucide-react';
 
 function App() {
@@ -35,38 +36,38 @@ function App() {
      {
       name: "MAISSA RAHMOUNI",
       role: "marketing team leader",
-      image:
+      image:unImg
     },
    {
       name: "FADOUA BOUACHIR",
       role: "er team leader",
-      image:
+      image:unImg
     },
    {
       name: "BOUFENNIR DJALEL",
       role: "design team leader",
-      image: 
+      image: unImg
     },
    {
       name: "DJIHANE REKAT",
       role: "organization team leader(Events)",
-      image: 
+      image: unImg
     },
   {
       name: "IBTIHAL GHAOUI",
       role: "organization team leader workshops",
-      image: 
+      image: unImg
     },
    {
       name: "ISRAA MOUSSAOUI",
       role: "finance team leader",
-      image:
+      image:unImg
     },
    {
       name: "KHADIDJA MELIT",
       role: "administration team leader",
-      image: 
-    },
+      image: unImg
+    }
  
   ];
 
