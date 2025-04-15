@@ -248,7 +248,8 @@ function App() {
             <h4 className="text-lg font-semibold mb-4">{t('footer.contact')}</h4>
             <div className="flex items-center space-x-2 text-gray-400">
               <Mail className="w-5 h-5" />
-              <a href="contact@medmind.org">contact@medmind.org</a>
+              <a href="medmindoffice@gmail.com">medmindoffice@gmail.com</a>
+
             </div>
           </div>
           <div>
