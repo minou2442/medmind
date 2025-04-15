@@ -5,6 +5,12 @@ import { Card, CardContent } from './components/ui/card';
 import { Button } from './components/ui/button';
 import { ThemeToggle } from './components/ui/theme-toggle';
 import { LanguageSelector } from './components/ui/language-selector';
+import zakariaImg from './images/zaki.jpg';
+import nourhaneImg from './images/nourhane.jpg';
+import ridaImg from './images/grimes.jpg';
+import bgImage from './images/background.jpg';
+
+
 import { Heart, Calendar, Brain, Code, Mail, Instagram, Send, BookOpen, Stethoscope, Microscope } from 'lucide-react';
 
 function App() {
@@ -12,19 +18,19 @@ function App() {
 
   const leaders = [
     {
-      name: "Dr. Amina Khelil",
+      name: "ZAKARIA",
       role: "President",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300&h=300"
+      image: zakariaImg
     },
     {
-      name: "Dr. Yassine Mansouri",
+      name: "nourhane",
       role: "Vice President",
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300&h=300"
+      image: nourhaneImg
     },
     {
-      name: "Dr. Sara Meziani",
-      role: "Scientific Coordinator",
-      image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300&h=300"
+      name: "rida grimes",
+      role: "photography team leader",
+      image:  ridaImg
     }
   ];
 
@@ -84,13 +90,14 @@ function App() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-red-600 to-pink-600 dark:from-red-900 dark:to-pink-900 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div 
-          className="absolute inset-0 opacity-20" 
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&q=80&w=2000')",
-            backgroundSize: "cover",
-            backgroundPosition: "center"
-          }}
-        ></div>
+  className="absolute inset-0 opacity-20" 
+  style={{
+    backgroundImage: `url(${bgImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  }}
+></div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
