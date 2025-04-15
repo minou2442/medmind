@@ -17,9 +17,9 @@ function App() {
   const { t } = useTranslation();
 
    const leaders = [
-    { name: "ZAKARIA", role: "President", image: zakariaImg },
-    { name: "nourhane", role: "Vice President", image: nourhaneImg },
-    { name: "rida grimes", role: "photography team leader", image: ridaImg }, ]
+    { name: "ZAKARIA FOUGHALIA", role: "President", image: zakariaImg },
+    { name: "NOURHANE TERKI", role: "Vice President", image: nourhaneImg },
+    { name: "RAID GRIMES", role: "photography team leader", image: ridaImg }, ]
 
  
 
