@@ -18,20 +18,56 @@ function App() {
 
   const leaders = [
     {
-      name: "ZAKARIA",
+      name: "ZAKARIA FOUGHALIA",
       role: "President",
       image: zakariaImg
     },
     {
-      name: "nourhane",
+      name: "NOURHANE TERKI",
       role: "Vice President",
       image: nourhaneImg
     },
     {
-      name: "rida grimes",
+      name: "GRIMES RAID",
       role: "photography team leader",
       image:  ridaImg
     }
+     {
+      name: "MAISSA RAHMOUNI",
+      role: "marketing team leader",
+      image:
+    },
+   {
+      name: "FADOUA BOUACHIR",
+      role: "er team leader",
+      image:
+    },
+   {
+      name: "BOUFENNIR DJALEL",
+      role: "design team leader",
+      image: 
+    },
+   {
+      name: "DJIHANE REKAT",
+      role: "organization team leader(Events)",
+      image: 
+    },
+  {
+      name: "IBTIHAL GHAOUI",
+      role: "organization team leader workshops",
+      image: 
+    },
+   {
+      name: "ISRAA MOUSSAOUI",
+      role: "finance team leader",
+      image:
+    },
+   {
+      name: "KHADIDJA MELIT",
+      role: "administration team leader",
+      image: 
+    },
+ 
   ];
 
   const events = [
