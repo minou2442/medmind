@@ -243,10 +243,10 @@ function App() {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.followUs')}</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/medmind_club?igsh=YXRqcjk5NHJ2Y3l5np" className="text-gray-400 hover:text-white">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="https://www.instagram.com/medmind_club?igsh=YXRqcjk5NHJ2Y3l5np" className="text-gray-400 hover:text-white">
+              <a href="https://www.facebook.com/profile.php?id=61566866665381" className="text-gray-400 hover:text-white">
                 <Send className="w-6 h-6" />
               </a>
             </div>
