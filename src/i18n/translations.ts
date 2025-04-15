@@ -133,7 +133,7 @@ export const translations = {
     translation: {
       hero: {
         title: "ميدمايند",
-        subtitle: "ول نادٍ علمي طبي في جامعة جيجل",
+        subtitle: "أول نادٍ علمي طبي في جامعة جيجل",
         joinButton: "انضم إلى مجتمعنا"
       },
       about: {
