@@ -11,30 +11,17 @@ import ridaImg from './images/grimes.jpg';
 import bgImage from './images/background.jpg';
 
 
-Unknown_person
-import { Heart, Calendar, Brain, Code, Mail, Instagram, Send, BookOpen, Stethoscope, Microscope } from 'lucide-react';
+import { Heart, Calendar, Brain, Code, Mail, Instagram, Send, BookOpen, Stethoscope, Microscope, } from 'lucide-react';
 
 function App() {
   const { t } = useTranslation();
 
-  const leaders = [
-    {
-      name: "ZAKARIA FOUGHALIA",
-      role: "President",
-      image: zakariaImg
-    },
-    {
-      name: "NOURHANE TERKI",
-      role: "Vice President",
-      image: nourhaneImg
-    },
-    {
-      name: "GRIMES RAID",
-      role: "photography team leader",
-      image:  ridaImg
-    }
+   const leaders = [
+    { name: "ZAKARIA", role: "President", image: zakariaImg },
+    { name: "nourhane", role: "Vice President", image: nourhaneImg },
+    { name: "rida grimes", role: "photography team leader", image: ridaImg }, ]
+
  
-  ];
 
   const events = [
     {
@@ -251,16 +238,15 @@ function App() {
             <div className="flex items-center space-x-2 text-gray-400">
               <Mail className="w-5 h-5" />
               <a href="medmindoffice@gmail.com">medmindoffice@gmail.com</a>
-
             </div>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.followUs')}</h4>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/medmind_club?igsh=YXRqcjk5NHJ2Y3l5" className="text-gray-400 hover:text-white">
+              <a href="#" className="text-gray-400 hover:text-white">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/medmind_club?igsh=YXRqcjk5NHJ2Y3l5np" className="text-gray-400 hover:text-white">
                 <Send className="w-6 h-6" />
               </a>
             </div>
