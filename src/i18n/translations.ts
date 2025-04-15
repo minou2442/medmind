@@ -3,7 +3,7 @@ export const translations = {
     translation: {
       hero: {
         title: "MEDMIND",
-        subtitle: "Scientific Club – University of Jijel",
+        subtitle: "THE FIRST MED SCIENTIFIC CLUB IN THE UNIVERSITY OF JIJEL",
         joinButton: "Join Our Community"
       },
       about: {
@@ -68,7 +68,7 @@ export const translations = {
     translation: {
       hero: {
         title: "MEDMIND",
-        subtitle: "Club Scientifique – Université de Jijel",
+        subtitle: "Le premier club scientifique médical de l'université de Jijel",
         joinButton: "Rejoignez Notre Communauté"
       },
       about: {
@@ -133,7 +133,7 @@ export const translations = {
     translation: {
       hero: {
         title: "ميدمايند",
-        subtitle: "النادي العلمي - جامعة جيجل",
+        subtitle: "ول نادٍ علمي طبي في جامعة جيجل",
         joinButton: "انضم إلى مجتمعنا"
       },
       about: {
